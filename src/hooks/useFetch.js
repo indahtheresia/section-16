@@ -22,6 +22,7 @@ export function useFetch(fetchFn, initialValue) { //functions that start with us
   return {
     isFetching,
     error,
-    fetchedData
+    fetchedData,
+    setFetchedData
   }
 }
